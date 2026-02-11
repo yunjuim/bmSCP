@@ -2,7 +2,7 @@
 Sooin Yun and Yunju Im (2026). Bayesian Multivariate Spatiotemporal Changepoint Detection with Spatial Dependence: An Application to SEER Cancer Incidence. Manuscript.
 
 ## Description
-1) BHMnet.jl contains the main functions for generating MCMC samples for the proposed bmSCP model described in the manuscript.
+1) bmSCP.jl contains the main functions for generating MCMC samples for the proposed bmSCP model described in the manuscript.
 2) simdata.jld2 contains a simulated dataset used in the numerical experiments. 
 
 ## Examples
