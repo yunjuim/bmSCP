@@ -44,7 +44,7 @@ selected = findall(x -> x > 0.5, PPI)
 # True positive rate for changepoint detection
 TPR = length(intersect(selected, true_idx)) / length(true_idx)
 
-# Posterior mean and RMSE for latent temporal effects (phi)
+# Posterior mean and RMSE for phi
 mphi = vec(mean(s1.phi[:, (n_burn + 1):end], dims = 2))
 rmse_phi = sqrt(mean((mphi - true_phi).^2))
 ```
