@@ -12,7 +12,7 @@ Below is an example illustrating how to run the bmSCP model.
 using StatsBase, LinearAlgebra, Distributions, Random, CSV, DataFrames, JLD2, RCall
 
 # Load model functions and simulated data
-include("/mnt/nrdstor/yunjuim/yunjuim/cancer-trend-cp/2026-02-02-ftn-code-clean-up.jl")
+include("bmSCP.jl")
 
 @load "simdat.jld2" simdat M0 CA_names
 
